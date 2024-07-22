@@ -19,6 +19,8 @@ import java.util.List;
 @ComponentScan(basePackages = "org.example")
 public class PersonFeatureSteps {
 
+    // these are the test scenarios in the features class
+
     private PersonService personService = new PersonServiceImpl();
     private List<Person> personList;
     private int personsInitSize = 0;
